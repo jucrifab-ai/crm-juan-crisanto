@@ -1,0 +1,18 @@
+{
+  "name": "crm-leads-webhook",
+  "version": "1.0.0",
+  "description": "Recibe leads de Facebook Ads (Lead Ads) y WhatsApp Business (Meta Cloud API) y los guarda en Postgres para que el CRM los lea automáticamente.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5"
+  }
+}
